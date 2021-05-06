@@ -12,8 +12,12 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Currency App</h1>
+      <div className="Part">
       <Enrty parentCallback={callback} />
       <Result title={global} />
+      </div>
+    
     </div>
   );
 }
